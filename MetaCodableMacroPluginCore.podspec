@@ -7,7 +7,6 @@ Pod::Spec.new do |s|
   s.dependency 'SwiftSyntax/Diagnostics', *s.swift_syntax_constraint
   s.dependency 'SwiftSyntax/Builder', *s.swift_syntax_constraint
   s.dependency 'SwiftSyntax/Macros', *s.swift_syntax_constraint
-  s.dependency 'SwiftyCollections/OrderedCollections', '~> 1.0.4'
 
   s.pod_target_xcconfig = {
     'OTHER_SWIFT_FLAGS' => "-Xfrontend -package-name -Xfrontend MetaCodable"

@@ -21,7 +21,6 @@ let package = Package(
     ],
     dependencies: [
         .package(url: "https://github.com/swiftlang/swift-syntax.git", "509.1.0"..<"604.0.0"),
-        .package(url: "https://github.com/apple/swift-collections.git", from: "1.0.4"),
         .package(url: "https://github.com/apple/swift-argument-parser.git", from: "1.2.2"),
         .package(url: "https://github.com/swiftlang/swift-docc-plugin", from: "1.0.0"),
     ],
@@ -35,7 +34,6 @@ let package = Package(
                 .product(name: "SwiftDiagnostics", package: "swift-syntax"),
                 .product(name: "SwiftSyntaxBuilder", package: "swift-syntax"),
                 .product(name: "SwiftSyntaxMacros", package: "swift-syntax"),
-                .product(name: "OrderedCollections", package: "swift-collections"),
             ]
         ),
 
